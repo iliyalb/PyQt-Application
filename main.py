@@ -1,7 +1,8 @@
-from PySide6.QtWidgets import QApplication, QWidget
 import sys
+from PySide6.QtWidgets import QApplication
+from button_placement import ButtonPlacement
 
 app = QApplication(sys.argv)
-window = QWidget()
+window = ButtonPlacement()
 window.show()
 app.exec()
